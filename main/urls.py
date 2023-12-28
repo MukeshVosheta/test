@@ -20,5 +20,7 @@ from . import views
 
 urlpatterns = [
     path('hello/',views.home,name='home'),
+    path('',views.defo),
+
 ]
 
